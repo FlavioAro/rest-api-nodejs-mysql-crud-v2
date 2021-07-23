@@ -1,9 +1,9 @@
-//* Import the customers.routes file with all de methods
-import customerRoutes from './routes/customers.routes';
+//* Import the company.routes file with all de methods
+import companyRoutes from './routes/company.routes';
 
 //* Here I defined the first endpoint
 const router = (app) => {
-    app.use('/customers', customerRoutes);
+    app.use('/company', companyRoutes);
 };
 
 export default router;

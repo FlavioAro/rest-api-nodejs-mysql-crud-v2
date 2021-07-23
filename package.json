@@ -1,7 +1,7 @@
 {
-  "name": "rest-api-nodejs-mysql-crud-v2",
-  "version": "1.1.0",
-  "description": "Restful CRUD API with Node.js, Express and MySQL",
+  "name": "boomer-backend",
+  "version": "1.0.0",
+  "description": "Financial control",
   "main": "index.js",
   "scripts": {
     "start": "webpack --watch --config webpack.config.js",
